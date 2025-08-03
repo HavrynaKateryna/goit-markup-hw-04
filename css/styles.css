@@ -113,7 +113,7 @@ gap: 40px;}
     background-color: #2e2f42;
 max-width: 1440px;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
 background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -133,7 +133,7 @@ background-repeat: no-repeat;
 .button{ display: block;
 
     padding: 16px 32px;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .hero-container {
@@ -153,7 +153,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         height: 56px;
         border: none;
         border-radius: 4px;
-     
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -198,9 +198,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 112px;
 background-color: #f4f4fd;
 }
-.benefits-item-title {
-    margin-bottom: 8px;
-}
+
 
 .benefits-item-title{
         font-weight: 500;
@@ -208,6 +206,7 @@ background-color: #f4f4fd;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 .benefits-item-text{
     font-size: 16px;
