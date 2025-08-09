@@ -112,6 +112,8 @@ gap: 40px;}
 .hero-section{
     background-color: #2e2f42;
 max-width: 1440px;
+margin-left: auto;
+    margin-right: auto;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
 background-repeat: no-repeat;
@@ -271,6 +273,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .list-icons{ display: flex;
     justify-content: center;
         gap: 24px;
+        margin-top: 8px;
 }
 .team-icons-item{
     width: 40px;
